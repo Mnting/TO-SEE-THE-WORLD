@@ -9,26 +9,21 @@ namespace C____001
     {
         static void Main(string[] args)
         {
-            while (true)
+            Boolean flag = true;
+            while (flag)
             {
-<<<<<<< HEAD
                 Console.Title = "C#第一课迭代法";//设置标题
-                Console.ForegroundColor = ConsoleColor.Red; //设置字体颜色为红色 
-=======
->>>>>>> parent of 0c1517d... 添加是否继续判断
+                Console.ForegroundColor = ConsoleColor.Green; //设置字体颜色为绿色 
                 Console.Write("请输入循环次数：");
                 int n = Convert.ToInt16(Console.ReadLine());
                 Fibanacci(n);
                 Tylor(n);
                 Vieta(n);
-<<<<<<< HEAD
                 Console.Write("是否继续？Y or N?");
                 string num = Console.ReadLine();
                 if ( num == "N" || num == "n")
                     flag = false;
-=======
                 Console.ReadKey();
->>>>>>> parent of 0c1517d... 添加是否继续判断
             }
         }
 
