@@ -9,14 +9,20 @@ namespace C____001
     {
         static void Main(string[] args)
         {
-            while (true)
+            Boolean flag = true;
+            while (flag)
             {
+                Console.Title = "迭代法";//设置标题
+                Console.ForegroundColor = ConsoleColor.Red; //设置字体颜色为红色 
                 Console.Write("请输入循环次数：");
                 int n = Convert.ToInt16(Console.ReadLine());
                 Fibanacci(n);
                 Tylor(n);
                 Vieta(n);
-                Console.ReadKey();
+                Console.Write("是否继续？Y or N？");
+                string num = Console.ReadLine();
+                if ( num == "N" || num == "n")
+                    flag = false;
             }
         }
 
