@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="10">
+    <TextView xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:textSize="40sp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/textView1"
+        android:text="@string/person"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <TextView
+        android:text="为了能更加准确的向您推荐食品，我们需要向您收集一些信息，   希望您准确填写，我们向您保证不会泄露您的个人信息。"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/textView2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="6">
+        <TextView
+            android:text="@string/sex"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:layout_weight="1" />
+        <RadioGroup
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="fill_parent"
+            android:id="@+id/sexGroup"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <RadioButton
+                android:text="woman"
+                android:id="@+id/womanbutton"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="fill_parent" />
+            <RadioButton
+                android:text="man"
+                android:id="@+id/manbutton"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="fill_parent" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:text="@string/birthday"
+            android:layout_width="51.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" />
+        <TextView
+            android:text="@string/year"
+            android:layout_width="22.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8" />
+      <EditText
+        android:inputType="number"
+            android:layout_width="79.0dp"
+            android:layout_height="42.0dp"
+            android:id="@+id/year" />
+        <TextView
+            android:text="@string/month"
+            android:layout_width="18.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" />
+      <EditText
+        android:inputType="number"
+            android:layout_width="88.5dp"
+            android:layout_height="42.0dp"
+            android:id="@+id/month" />
+        <TextView
+            android:text="@string/day"
+            android:layout_width="14.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10" />
+      <EditText
+        android:inputType="number"
+            android:layout_width="90.0dp"
+            android:layout_height="42.0dp"
+            android:id="@+id/day" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:text="@string/city"
+            android:layout_width="42.0dp"
+            android:layout_height="40.5dp"
+            android:id="@+id/textView11"
+            android:textSize="15sp" />
+        <Spinner
+            android:layout_width="341.0dp"
+            android:layout_height="41.5dp"
+            android:id="@+id/citylist"
+            android:spinnerMode="dialog" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="6">
+        <TextView
+            android:text=""
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_weight="4" />
+        <Button
+            android:text="Next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nextbutton"
+            android:layout_weight="2" />
+    </LinearLayout>
+</LinearLayout>

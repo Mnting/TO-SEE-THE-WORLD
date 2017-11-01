@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Demo</string>
+  <string name="person">个人用户</string>
+  <string name="sex">性别：</string>
+  <string name="man">男</string>
+  <string name="woman">女</string>
+  <string name="birthday">生日：</string>
+  <string name="year">年</string>
+  <string name="month">月</string>
+  <string name="day">日</string>
+  <string name="city">城市：</string>
+  <string name="choosecity">选择一个城市</string>
+  <string name="meat">肉类：</string>
+  <string name="seasoning">调味料：</string>
+  <string name="vegetable">蔬菜类：</string>
+  <string-array name="city_array">
+    <item>上海</item>
+    <item>北京</item>
+    <item>香港</item>
+    <item>台湾</item>
+    <item>广州</item>
+    <item>重庆</item>
+    <item>武汉</item>
+    <item>深圳</item>
+  </string-array>
+  <string name="nowweather">天气：</string>
+  <string name="shiliang">食量：</string>
+  <string name="hunsu">荤素：</string>
+  <string name="hun">荤</string>
+  <string name="su">素</string>
+  <string name="yin">阴</string>
+  <string name="qing">晴</string>
+  <string name="yu">雨</string>
+  <string name="xue">雪</string>
+</resources>

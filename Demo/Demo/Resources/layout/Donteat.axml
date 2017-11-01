@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="10">
+    <TextView
+        android:text="饮食禁忌"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_weight="0.5"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="4">
+        <TextView
+            android:text="@string/meat"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/textmeat"
+            android:layout_weight="3"
+            android:hint="如：鱼肉" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="4">
+        <TextView
+            android:text="@string/vegetable"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView8"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/textveg"
+            android:layout_weight="3"
+            android:hint="如：香菜" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="4">
+        <TextView
+            android:text="@string/seasoning"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView9"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/textsea"
+            android:layout_weight="3" />
+    </LinearLayout>
+    <TextView
+        android:text="如无禁忌可不填写，之后可随时在设置内修改~"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0.5"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="6">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:layout_weight="4.5" />
+        <Button
+            android:text="Finish"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/finishbutton"
+            android:layout_weight="1.5" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="5">
+        <TextView
+            android:text="@string/nowweather"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/textViewwea"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="35px"
+            android:textStyle="bold" />
+        <RadioGroup
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/radioGroup3"
+            android:layout_weight="4"
+            android:weightSum="4"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/yin"
+                android:id="@+id/radioButtonyin"
+                android:layout_weight="1" />
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/qing"
+                android:id="@+id/radioButtonqing"
+                android:layout_weight="1" />
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/yu"
+                android:id="@+id/radioButtonyu"
+                android:layout_weight="1" />
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/xue"
+                android:id="@+id/radioButtonxue"
+                android:layout_weight="1" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="5">
+        <TextView
+            android:text="@string/shiliang"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/textViewshiliang"
+            android:layout_weight="2.5"
+            android:textSize="35px"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <RatingBar
+            android:id="@+id/star"
+            android:numStars="5"
+            android:rating="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="5">
+        <TextView
+            android:text="@string/hunsu"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/textViewhunsu"
+            android:layout_weight="1"
+            android:textSize="35px"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <RadioGroup
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/radioGrouphunsu"
+            android:layout_weight="4"
+            android:weightSum="4"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/hun"
+                android:id="@+id/radioButtonhun"
+                android:layout_weight="2" />
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="@string/su"
+                android:id="@+id/radioButtonsu"
+                android:layout_weight="2" />
+        </RadioGroup>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/imageViewcai"
+        android:layout_weight="4" />
+    <Button
+        android:text="Ding~"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonend"
+        android:layout_weight="0.25" />
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="1.75" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="4">
+        <Button
+            android:text="Today Menu"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/todaybutton1"
+            android:layout_weight="1" />
+        <Button
+            android:text="Everyday"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/everydaybutton2"
+            android:layout_weight="1" />
+        <Button
+            android:text="plan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/planbutton3"
+            android:layout_weight="1" />
+        <Button
+            android:text="mine"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/minebutton4"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
