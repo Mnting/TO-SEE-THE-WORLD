@@ -1,0 +1,50 @@
+<view class="main">
+    <view class="banner">
+        <image src="/image/list1.jpg"></image>
+    </view>
+
+    <view class="list-box">
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s4.jpg"></image>
+                <view class="newest-text"><text>滋养恒护洗发水1号</text></view>
+                <view class="newest-text price"><text>￥ 240.00</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s5.jpg"></image>
+                <view class="newest-text"><text>奥丽柔顺洗发水</text></view>
+                <view class="newest-text price"><text>￥ 240.00</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s6.jpg"></image>
+                <view class="newest-text"><text>雪绒蓬蓬粉雾</text></view>
+                <view class="newest-text price"><text>￥ 198.00</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s7.jpg"></image>
+                <view class="newest-text"><text>奥丽顺柔液</text></view>
+                <view class="newest-text price"><text>￥ 285.00</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s8.jpg"></image>
+                <view class="newest-text"><text>舒缓丝盈洗发水</text></view>
+                <view class="newest-text price"><text>￥ 240.00</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s9.jpg"></image>
+                <view class="newest-text"><text>丰凝护发露</text></view>
+                <view class="newest-text price"><text>￥ 340.00</text></view>
+            </navigator>
+        </view>
+    </view>
+</view>
